@@ -74,6 +74,8 @@ Further, have a look at the Python examples in this repository for preprocessing
 BraTS Segmentor enables orchestration of BraTS brain tumor segmentation algorithms for generation of fully-automated segmentations.
 For segmentation, your files should be `preprocessed`, meaning they should be co-registered and skullstripped in SRI-24 space.
 You can preprocess your files using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) (recommended) or the deprecated preprocessor of BraTS Toolkit (see below).
+> [!NOTE]  
+> Algorithms are now available for Adult Glioma Segmentation [Pre-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-pre-treatment) and [Post-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-post-treatment)
 
 ### Python package
 Please have a look at `1_segmentation.py` in this repository for a demo application.
@@ -88,8 +90,8 @@ Please have a look at `2_fusion.py` in this repository for a demo application.
 
 ## Brats Preprocessor (deprecated)
 BraTS Preprocessor facilitates data standardization and preprocessing for researchers and clinicians alike. It covers the entire image analysis workflow prior to tumor segmentation, from image conversion and registration to brain extraction.
-
-> WARNING: BraTS Preprocessor is deprecated. It still works, but we recommended using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) instead, which offers much more flexibility.
+> [!WARNING]
+> BraTS Preprocessor is deprecated. It still works, but we recommended using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) instead, which offers much more flexibility.
 
 ### Processing Modi
 BraTS Preprocessor offers the following preprocessing modes:
@@ -120,7 +122,8 @@ Type `brats-batch-preprocess -h` after installing the Python package to see avai
 
 ### Graphical User Interface (GUI)
 You can find instructions to use and download the GUI variant here: https://neuronflow.github.io/BraTS-Preprocessor/
-> WARNING: The GUI is not nicely maintained. We encourage you to use the Python package or the CLI instead.
+> [!WARNING]
+> The GUI is not nicely maintained. We encourage you to use the Python package or the CLI instead.
 
 
 ### Command Line Interface (CLI)
