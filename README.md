@@ -78,7 +78,7 @@ You can preprocess your files using BrainLes preprocessing: https://github.com/B
 > Algorithms are now available for Adult Glioma Segmentation <br> 
 Pre-Treatment: https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-pre-treatment <br> 
 and Post-Treatment: https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-post-treatment). <br>
-<br> If you're interested in Adult Glioma Segmentation (GlioMODA): https://github.com/BrainLesion/GlioMODA#gliomoda may also be of interest.
+If you're interested in Adult Glioma Segmentation (GlioMODA): https://github.com/BrainLesion/GlioMODA#gliomoda may also be of interest.
 > 
 ### Python package
 Please have a look at `1_segmentation.py` in this repository for a demo application.
