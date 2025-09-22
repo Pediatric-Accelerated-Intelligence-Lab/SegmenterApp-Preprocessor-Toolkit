@@ -92,7 +92,7 @@ Please have a look at `2_fusion.py` in this repository for a demo application.
 ## Brats Preprocessor (deprecated)
 BraTS Preprocessor facilitates data standardization and preprocessing for researchers and clinicians alike. It covers the entire image analysis workflow prior to tumor segmentation, from image conversion and registration to brain extraction.
 > [!WARNING]
-> BraTS Preprocessor is deprecated. It still works, but we recommended using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) instead, which offers much more flexibility.
+> BraTS Preprocessor is deprecated. It still works, but we recommend using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) instead, which offers much more flexibility.
 
 ### Processing Modi
 BraTS Preprocessor offers the following preprocessing modes:
