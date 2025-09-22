@@ -67,18 +67,16 @@ Please also cite the following original authors of the algorithms who make this 
 
 
 ## Usage
-BrainLes features (Jupyter notebook tutorials: https://github.com/BrainLesion/tutorials/tree/main/BraTS-Toolkit) for glioma segmentation with BraTS Toolkit.
+BrainLes features [Jupyter notebook tutorials](https://github.com/BrainLesion/tutorials/tree/main/BraTS-Toolkit) for glioma segmentation with BraTS Toolkit.
 Further, have a look at the Python examples in this repository for preprocessing (`0_preprocessing_single.py`), segmentation (`1_segmentation.py`) and fusion (`2_fusion.py`).
 
 ## Brats Segmentor
 BraTS Segmentor enables orchestration of BraTS brain tumor segmentation algorithms for generation of fully-automated segmentations.
 For segmentation, your files should be `preprocessed`, meaning they should be co-registered and skullstripped in SRI-24 space.
-You can preprocess your files using BrainLes preprocessing: https://github.com/BrainLesion/preprocessing (recommended) or the deprecated preprocessor of BraTS Toolkit (see below).
+You can preprocess your files using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) (recommended) or the deprecated preprocessor of BraTS Toolkit (see below).
 > [!NOTE]  
-> Algorithms are now available for Adult Glioma Segmentation:
-> - [Pre-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-pre-treatment)
-> - [Post-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-post-treatment)
-> If you're interested in Adult Glioma Segmentation (GlioMODA): [https://github.com/BrainLesion/GlioMODA#gliomoda](https://github.com/BrainLesion/GlioMODA#gliomoda) may also be of interest.
+> Algorithms are now available for Adult Glioma Segmentation [Pre-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-pre-treatment) and [Post-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-post-treatment).  
+> If you're interested in Adult Glioma Segmentation [GlioMODA](https://github.com/BrainLesion/GlioMODA#gliomoda) may also be of interest.
 > 
 ### Python package
 Please have a look at `1_segmentation.py` in this repository for a demo application.
@@ -94,7 +92,7 @@ Please have a look at `2_fusion.py` in this repository for a demo application.
 ## Brats Preprocessor (deprecated)
 BraTS Preprocessor facilitates data standardization and preprocessing for researchers and clinicians alike. It covers the entire image analysis workflow prior to tumor segmentation, from image conversion and registration to brain extraction.
 > [!WARNING]
-> BraTS Preprocessor is deprecated. It still works, but we recommended using BrainLes preprocessing: https://github.com/BrainLesion/preprocessing instead, which offers much more flexibility.
+> BraTS Preprocessor is deprecated. It still works, but we recommended using [BrainLes preprocessing](https://github.com/BrainLesion/preprocessing) instead, which offers much more flexibility.
 
 ### Processing Modi
 BraTS Preprocessor offers the following preprocessing modes:
