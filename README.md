@@ -75,10 +75,10 @@ BraTS Segmentor enables orchestration of BraTS brain tumor segmentation algorith
 For segmentation, your files should be `preprocessed`, meaning they should be co-registered and skullstripped in SRI-24 space.
 You can preprocess your files using BrainLes preprocessing: https://github.com/BrainLesion/preprocessing (recommended) or the deprecated preprocessor of BraTS Toolkit (see below).
 > [!NOTE]  
-> Algorithms are now available for Adult Glioma Segmentation <br> 
-Pre-Treatment: https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-pre-treatment <br> 
-and Post-Treatment: https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-post-treatment). <br>
-If you're interested in Adult Glioma Segmentation (GlioMODA): https://github.com/BrainLesion/GlioMODA#gliomoda may also be of interest.
+> Algorithms are now available for Adult Glioma Segmentation:
+> - [Pre-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-pre-treatment)
+> - [Post-Treatment](https://github.com/BrainLesion/BraTS?tab=readme-ov-file#adult-glioma-segmentation-post-treatment)
+> If you're interested in Adult Glioma Segmentation (GlioMODA): [https://github.com/BrainLesion/GlioMODA#gliomoda](https://github.com/BrainLesion/GlioMODA#gliomoda) may also be of interest.
 > 
 ### Python package
 Please have a look at `1_segmentation.py` in this repository for a demo application.
